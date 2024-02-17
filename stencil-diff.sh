@@ -4,12 +4,12 @@
 stencilFolder=$1
 gitFolder=$2
 
-if [[ ! -d "$stencilFolder" ]] ; then
+if [ ! -d "$stencilFolder" ] ; then
   echo "Error: Stencil theme not found"
   exit
 fi
 
-if [[ ! -d "$gitFolder" ]] ; then
+if [ ! -d "$gitFolder" ] ; then
   echo "Error: Git repo theme not found"
   exit
 fi
